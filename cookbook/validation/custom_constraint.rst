@@ -146,7 +146,7 @@ Using custom validators is very easy, just as the ones provided by Symfony itsel
         use Symfony\Component\Validator\Constraints\NotBlank;
         use AppBundle\Validator\Constraints\ContainsAlphanumeric;
 
-        class AcmeEntity
+        class AcmeEntityTest
         {
             public $name;
 
